@@ -11,7 +11,7 @@ repository = "https://github.com/ctz/rustls-native-certs"
 categories = ["network-programming", "cryptography"]
 
 [dependencies]
-rustls = "0.18.0"
+rustls = { git = "https://github.com/ctz/rustls", rev = "fee894f7e030" }
 
 [dev-dependencies]
 webpki = "0.21"
